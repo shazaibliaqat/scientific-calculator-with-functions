@@ -1,26 +1,26 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-{	void sum(float v1,float v2){
-		cout<<"sum="<<v1<<"+"<<v2<<"="<<v1+v2;
-	}void diff(float v1,float v2){
-		cout<< "difference="<<v1<<"-"<<v2<<"="<<v1-v2;
-	}void prod(float v1,float v2){
-		cout<< "product="<<v1<<"*"<<v2<<"="<<v1*v2;
-	}void div(float v1,float v2){
-		cout<< "division="<<v1<<"/"<<v2<<"="<<v1/v2;
-	}void sqrt(float v1,float v2){
-		cout<< "square root="<<v1<<"sqrt"<<v2<<"="<<sqrt(v1*v2);
-	}void log(float v1,float v2){
-		cout<< "logarithm="<<v1<<"ln"<<v2<<"="<<log(v1*v2);
-	}void sqr(float v1){
-		cout<< "square="<<v1<<"*"<<v1<<"="<<v1*v1;}}
+			void sum(float v1,float v2)
+		{cout<<"sum="<<v1<<"+"<<v2<<"="<<v1+v2;}	
+ 			void diff(float v1,float v2)
+		{cout<< "difference="<<v1<<"-"<<v2<<"="<<v1-v2;}
+ 			void prod(float v1,float v2)
+		{cout<< "product="<<v1<<"*"<<v2<<"="<<v1*v2;}
+ 			void div(float v1,float v2)
+		{cout<< "division="<<v1<<"/"<<v2<<"="<<v1/v2;}
+ 			void sqrt(float v1,float v2)
+		{cout<< "square root="<<v1<<"sqrt"<<v2<<"="<<sqrt(v1*v2);}
+ 			void log(float v1,float v2)
+		{cout<< "logarithm="<<v1<<"ln"<<v2<<"="<<log(v1*v2);}
+ 			void sqr(float v1)
+		{cout<< "square="<<v1<<"*"<<v1<<"="<<v1*v1;}
 int  main(){
-	float  n1,n2;
+		float  n1,n2;
 	cout<<"enter 1st numbers ="<<endl;
-	cin>>n1;
+		cin>>n1;
 	cout<<"enter 2nd numbers ="<<endl;
-	cin>>n2;
+		cin>>n2;
 	{
 	sum(n1,n2);
 	cout<<endl;
